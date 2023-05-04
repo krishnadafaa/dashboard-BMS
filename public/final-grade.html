@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#EFFBFF] font-inter">
+    <header class="md:pl-10 md:pr-10 lg:pl-40 lg:pr-40 p-3 bg-gradient-to-r from-[#FFB347] to-[#FFCC33] shadow-xl mb-5">
+        <h4 class="text-sm lg:text-base">Bintang Mandiri School</h4>
+        <h4 class="font-bold text-sm lg:text-base">Sistem Penilaian dan Rapor</h4>
+    </header>
+    <div class="container mx-auto px-3 md:mx-0 md:pl-10 md:pr-10 lg:pl-40 lg:pr-40">
+        <div class="mb-6">
+            <a href="index.html"><p class="font-extralight text-gray-400 text-xs">Dashboard</p></a>
+        </div>
+        <div class="tulisan mb-10">
+            <h1 class="font-bold text-xl">Tugas dan Ujian XII IPA 1</h1>
+            <p class="font-thin text-gray-400">Copy
+                Halaman ini menampilkan daftar nilai tugas dan ujian kelas XII IPA 1</p>
+        </div>
+        <div class="card mx-auto md:mx-0 w-full bg-white rounded-xl shadow-2xl mb-20">
+            <div class=" flex flex-col">
+                <div class="grid grid-cols-4 gap-0 mb-5" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                    <div role="presentation">
+                        <button class="block text-dec text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5 rounded-tl-lg w-full" id="cv-tab" data-tabs-target="#cv" type="button" role="tab" aria-controls="cv" aria-selected="false">1. Character Evaluation</button>
+                    </div>
+                    <div role="presentation">
+                        <button class="block text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5  w-full" id="gv-tab" data-tabs-target="#gv" type="button" role="tab" aria-controls="gv" aria-selected="false">2. Character General Evaluation</button>
+                    </div>
+                    <div role="presentation">
+                        <button class="block text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5 w-full" id="as-tab" data-tabs-target="#as" type="button" role="tab" aria-controls="as" aria-selected="false">3. Attendance Statistics</button>
+                    </div>
+                    <div role="presentation">
+                        <button class="block text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5 rounded-tr-lg w-full" id="sp-tab" data-tabs-target="#sp" type="button" role="tab" aria-controls="sp" aria-selected="false">4. Summary & Print</button>
+                    </div>
+                </div>
+                <div id="myTabContent">
+                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="cv" role="tabpanel" aria-labelledby="cv-tab">
+                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">cv tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    </div>
+                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="gv" role="tabpanel" aria-labelledby="gv-tab">
+                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    </div>
+                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="as" role="tabpanel" aria-labelledby="as-tab">
+                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    </div>
+                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="sp" role="tabpanel" aria-labelledby="sp-tab">
+                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-10"></div>
+    </div>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>

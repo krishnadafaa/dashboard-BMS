@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilai Rapor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#EFFBFF] font-inter">
+    <header class="md:pl-10 md:pr-10 lg:pl-40 lg:pr-40 p-3 bg-gradient-to-r from-[#FFB347] to-[#FFCC33] shadow-xl mb-5">
+        <h4 class="text-sm lg:text-base">Bintang Mandiri School</h4>
+        <h4 class="font-bold text-sm lg:text-base">Sistem Penilaian dan Rapor</h4>
+    </header>
+    <div class="container mx-auto px-3 md:mx-0 md:pl-10 md:pr-10 lg:pl-40 lg:pr-40">
+        <div class="mb-6 w-fit">
+            <a href="index.html"><p class="font-extralight text-gray-400 text-xs">Dashboard</p></a>
+        </div>
+        <div class="tulisan mb-10">
+            <h1 class="font-bold text-xl">Final Grade XII IPA 1</h1>
+            <p class="font-thin text-gray-400">Penilaian akhir XII IPA 1</p>
+        </div>
+        <div class="card mx-auto md:mx-0 w-full bg-white rounded-xl shadow-2xl mb-20">
+            <div class=" flex flex-col">
+                <div class="grid grid-cols-3 gap-0 mb-5">
+                    <div><a href="tugas.html" class="block text-center h-[32px] bg-[#D9D9D9] font-semibold py-0.5 rounded-tl-lg w-full">Tugas</a></div>
+                    <div><a href="ulangan.html" class="block text-center h-[32px] bg-[#D9D9D9] font-semibold py-0.5 rounded-br-lg w-full">Ulangan</a></div>
+                    <div><a href="nilai-rapor.html" class="block text-center h-[32px] bg-white font-semibold py-0.5 rounded-tr-lg w-full">Nilai Rapor</a></div>
+                </div>
+                <div class="grid grid-cols-2 gap-0 px-8 mb-5">
+                    <div>
+                        <input type="text" placeholder="Cari" class="border-2 border-[#DDDDDD] rounded-lg pl-4 h-[30px] w-[197px]">
+                    </div>
+                    <div>
+                        <div><a href="#" class=" float-right bg-gradient-to-b bg from-[#536976] to-[#292E49] text-white font-semibold px-2 py-0.5 rounded-lg max-w-fit h-[30px]">Simpan</a></div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-20">
+                    <table class="table-fixed">
+                        <thead class="bg-gradient-to-r from-[#EAEAEA] to-[#EDEDED] h-[32px] max-w-[1px]  text-left px-10">
+                            <tr>
+                                <th class="px-6">Nis</th>
+                                <th class="px-6">Nama Siswa</th>
+                                <th class="px-6">Nilai Akumulasi</th>
+                                <th class="px-6">catatan</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-left border divide-y divide-[#EAEAEA]">
+                            <tr class="h-[33px]"></tr>
+                            <tr class="h-[33px] py-4">
+                                <td class="px-6">65115</td>
+                                <td class="px-6">I Wayan Budi Jaya</td>
+                                <td class="px-6 flex py-0.5">
+                                    <div class="max-w-sm items-center mr-2">
+                                        <input type="text" class=" border-2 border-[#DDDDDD] rounded-lg w-[52px] text-center py-[2px]">
+                                    </div>
+                                    <div class="py-1">
+                                        <button data-modal-target="staticModal" data-modal-toggle="staticModal"><i><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-[#949494] stroke-2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                                        </svg></i></button>
+                                        <!-- Main modal -->
+                                        <div id="staticModal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                                            <div class="relative w-fit max-h-full mx-auto">
+                                                <!-- Modal content -->
+                                                <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                                    <!-- Modal header -->
+                                                    <div class="flex flex-col items-start justify-between p-4 ">
+                                                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                                                            I Wayan Budi Jaya
+                                                        </h3>
+                                                        <p>
+                                                            Rangkuman Nilai Tugas dan Ulangan
+                                                        </p>
+                                                    </div>
+                                                    <!-- Modal body -->
+                                                    <div class="space-y-6">
+                                                        <table class="w-full">
+                                                            <thead class="bg-gradient-to-r from-[#EAEAEA] to-[#EDEDED] h-[32px] w-full  text-left px-10">
+                                                                <tr>
+                                                                    <th class="px-6">Tanggal</th>
+                                                                    <th class="px-6">Nama Tugas</th>
+                                                                    <th class="px-6">Nilai</th>
+                                                                    <th class="min-w-[300px]"></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="text-left border divide-y divide-[#EAEAEA]">
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">90</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                                <tr class="h-[33px] py-4">
+                                                                    <td class="px-6">12 Desember 2022</td>
+                                                                    <td class="px-6">UTS</td>
+                                                                    <td class="px-6">80</td>
+                                                                    <td class="px-6"><a href="#" class="bg-[#FFB347] float-right text-black font-semibold px-2 py-0.5 rounded-full max-w-fit">Detail</a></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!-- Modal footer -->
+                                                    <div class="py-10 px-6 rounded-b">
+                                                        <button data-modal-hide="staticModal" type="button" class="float-right bg-gradient-to-b bg from-[#536976] to-[#292E49] text-white font-semibold px-2 py-0.5 rounded-lg max-w-fit h-[30px]">Tutup</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-0.5 ">
+                                    <div class="">
+                                        <input type="text" class="border-2 border-[#DDDDDD] rounded-lg w-full px-3 h-[30px]">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="mb-10"></div>
+    </div>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
