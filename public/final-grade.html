@@ -21,15 +21,13 @@
             <a href="index.html"><p class="font-extralight text-gray-400 text-xs">Dashboard</p></a>
         </div>
         <div class="tulisan mb-10">
-            <h1 class="font-bold text-xl">Tugas dan Ujian XII IPA 1</h1>
-            <p class="font-thin text-gray-400">Copy
-                Halaman ini menampilkan daftar nilai tugas dan ujian kelas XII IPA 1</p>
+            <h1 class="font-bold text-xl">Rapor XI IPS 1</h1>
         </div>
-        <div class="card mx-auto md:mx-0 w-full bg-white rounded-xl shadow-2xl mb-20">
+        <div class="card mx-auto md:mx-0 w-full bg-white rounded-xl shadow-2xl mb-10">
             <div class=" flex flex-col">
-                <div class="grid grid-cols-4 gap-0 mb-5" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                <div class="grid grid-cols-4 gap-0 mb-20" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                     <div role="presentation">
-                        <button class="block text-dec text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5 rounded-tl-lg w-full" id="cv-tab" data-tabs-target="#cv" type="button" role="tab" aria-controls="cv" aria-selected="false">1. Character Evaluation</button>
+                        <button class="block text-center  h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5 rounded-tl-lg w-full" id="cv-tab" data-tabs-target="#cv" type="button" role="tab" aria-controls="cv" aria-selected="false">1. Character Evaluation</button>
                     </div>
                     <div role="presentation">
                         <button class="block text-center h-[32px] bg-[#D9D9D9] text-sm font-semibold py-0.5  w-full" id="gv-tab" data-tabs-target="#gv" type="button" role="tab" aria-controls="gv" aria-selected="false">2. Character General Evaluation</button>
@@ -42,11 +40,160 @@
                     </div>
                 </div>
                 <div id="myTabContent">
-                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="cv" role="tabpanel" aria-labelledby="cv-tab">
-                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">cv tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    <div class="hidden rounded-lg" id="cv" role="tabpanel" aria-labelledby="cv-tab">
+                        <div class="relative overflow-x-auto mb-7">
+                            <table class="table-fixed w-full mb-4" >
+                                <thead class="h-[32px] max-w-[1px]  text-left px-10 mb-4">
+                                    <tr>
+                                        <th class="px-6 text-xs font-semibold">Nis</th>
+                                        <th class="text-xs font-semibold w-10">Nama Siswa</th>
+                                        <th class="px-6 text-xs font-semibold">Aspect</th>
+                                        <th class="px-6 text-xs text-center font-semibold">Description Remarks</th>
+                                        <th class="px-6 text-xs text-center font-semibold">Need Improvement</th>
+                                        <th class="px-6 text-xs text-center font-semibold">Showing Improvement</th>
+                                        <th class="px-6 text-xs text-center font-semibold">Well Improvement</th>
+                                        <th class="px-6 text-xs text-center font-semibold">Proficient</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-left border divide-y divide-[#EAEAEA]">
+                                    <tr class="h-[33px] py-4">
+                                        <td class="px-6 text-xs top-10 align-top"><div>5115</div></td>
+                                        <td class="text-xs top-10 align-top w-10">Agus Suwantara</td>
+                                        <td class="px-6 text-xs align-top">Dicipline</td>
+                                        <td class="text-xs flex-col align-top">
+                                            <div class="mb-7">Student prays in the morning and before meal</div>
+                                            <div class="mb-7">Student cares in the religion teaching by showing effort in doing good deeds and avoiding bad deeds</div>
+                                            <div class="mb-7">Student is likely to speak the truth/fact of story</div>
+                                            <div class="mb-7">Student respect and takes care off other people and their/belongings.</div>
+                                            <div class="">Copy
+                                                Student is always eager to lern and improve self</div>
+                                        </td>
+                                        <td class="px-6 text-xs grid grid-rows-4 gap-4">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                    </tr>
+                                    <tr class="h-[33px] py-4">
+                                        <td class="px-6 text-xs top-10 align-top"><div>5115</div></td>
+                                        <td class="text-xs top-10 align-top w-10">Agus Suwantara</td>
+                                        <td class="px-6 text-xs align-top">Dicipline</td>
+                                        <td class="text-xs flex-col align-top">
+                                            <div class="mb-7">Student prays in the morning and before meal</div>
+                                            <div class="mb-7">Student cares in the religion teaching by showing effort in doing good deeds and avoiding bad deeds</div>
+                                            <div class="mb-7">Student is likely to speak the truth/fact of story</div>
+                                            <div class="mb-7">Student respect and takes care off other people and their/belongings.</div>
+                                            <div class="">Copy
+                                                Student is always eager to lern and improve self</div>
+                                        </td>
+                                        <td class="px-6 text-xs grid grid-rows-4 gap-4">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                        <td class="px-6 text-xs">
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="mb-20 text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                            <div class="text-center"><input class="border border-[#888888] " type="checkbox" name="" id=""></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="grid grid-cols-1 mb-3 px-7">
+                                <div>
+                                    <div><button type="submit" class=" float-right bg-gradient-to-b bg from-[#536976] to-[#292E49] text-white font-semibold px-2 py-0.5 rounded-lg max-w-fit h-[30px]">Simpan</button></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="gv" role="tabpanel" aria-labelledby="gv-tab">
-                        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+                    <div class="hidden py-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="gv" role="tabpanel" aria-labelledby="gv-tab">
+                        <div class="grid grid-cols-1 gap-0 mb-7">
+                            <table class="table-fixed w-full">
+                                <thead class="bg-gradient-to-r from-[#EAEAEA] to-[#EDEDED] h-[32px] max-w-[1px]  text-left px-10">
+                                    <tr>
+                                        <th class="px-6 max-w-[1px]">Nis</th>
+                                        <th class="px-6">Nama Siswa</th>
+                                        <th class="px-6">catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-left border divide-y divide-[#EAEAEA]">
+                                    <tr class="h-[33px]"></tr>
+                                    <tr class="h-[33px] py-4">
+                                        <td class="px-6">65115</td>
+                                        <td class="px-6">I Wayan Budi Jaya</td>
+                                        <td class="px-6 py-0.5 ">
+                                            <div class="">
+                                                <input type="text" class="border-2 border-[#DDDDDD] rounded-lg w-full px-3 h-[30px]">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="h-[33px] py-4">
+                                        <td class="px-6">65115</td>
+                                        <td class="px-6">I Wayan Budi Jaya</td>
+                                        <td class="px-6 py-0.5 ">
+                                            <div class="">
+                                                <input type="text" class="border-2 border-[#DDDDDD] rounded-lg w-full px-3 h-[30px]">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="h-[33px] py-4">
+                                        <td class="px-6">65115</td>
+                                        <td class="px-6">I Wayan Budi Jaya</td>
+                                        <td class="px-6 py-0.5 ">
+                                            <div class="">
+                                                <input type="text" class="border-2 border-[#DDDDDD] rounded-lg w-full px-3 h-[30px]">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="grid grid-cols-1 mb-3 px-7">
+                            <div>
+                                <div><button type="submit" class=" float-right bg-gradient-to-b bg from-[#536976] to-[#292E49] text-white font-semibold px-2 py-0.5 rounded-lg max-w-fit h-[30px]">Simpan</button></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="as" role="tabpanel" aria-labelledby="as-tab">
                         <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
